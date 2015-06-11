@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkish_blueTitleBar">
+        #FF206479
+    </color>
+    <color name="darkish_blueLabel">
+        #ff227b90
+    </color>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffececec">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:background="#000"
+            android:id="@+id/titleBar"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AppTitle"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/help"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="36dp"
+            />
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:id="@+id/backButton"
+               android:layout_marginTop="4dp"
+               android:src="@drawable/ic_menu_back"
+            />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_share"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+            />
+    <TextView android:layout_below="@+id/titleBar"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/h1"
+              android:text="@string/help_h1"
+              android:textColor="#dd373c37"
+              android:textStyle="bold"
+              android:textSize="25sp"
+              android:layout_margin="5dp"
+            />
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/h1">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/how_to_play"
+                android:textColor="#dd373c37"
+                android:textSize="23sp"
+                android:layout_margin="7dp"
+                />
+    </ScrollView>
+
+
+</RelativeLayout>

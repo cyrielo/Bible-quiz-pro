@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bible quiz pro</string>
+    <string name="start_new">Start quiz</string>
+    <string name="continueButton">Continue</string>
+    <string name="view_scores">View scores</string>
+    <string name="rate_it">Rate app</string>
+    <string name="help">Help</string>
+    <string name="choose_level">Choose level</string>
+    <string name="options">Options</string>
+    <string name="about">About</string>
+    <string name="about_app_title">About app</string>
+    <string name="about_developer_title">About developer</string>
+    <string name="about_app_text">
+        Bible quiz pro is a bible quiz app for everyone, it is intended to test your knowledge of the bible.
+    </string>
+
+    <string name="about_developer_text">
+        I\'m Cyril Paul.
+        \nA freelance web/mobile app developer. I live in the city of
+        lagos Nigeria.
+        \nYou can contact me for your mobile app or web development project:
+        \nPhone:
+        \n+2348163589827
+        \nEmail:
+        \ncyrielo911@gmail.com
+        \nWebsite:
+        \nhttp://www.cyrielo.com
+    </string>
+    <string name="help_h1">How to play!</string>
+    <string name="how_to_play">On the start menu click on start quiz button.
+        \nChoose the level you wish to play.\nFor each levels, questions will be provided on the screen along with
+        four button.\n\nEach button contain one correct answer and three remaining wrong answer.\nClick on the button
+        that you think
+        has the correct answer to the question, and the computer will tell you if it\'s true or false.
+        \n\nYou need to get at least 10 correct answers, to unlock the next level.
+        \nAnd don\'t forget to rate the app :)
+    </string>
+    <string name="first_activity">Rookie</string>
+    <string name="second_activity">Enthusiast</string>
+    <string name="third_activity">Intermediate</string>
+    <string name="fourth_activity">Pro</string>
+    <string name="fifth_activity">Expert</string>
+    <string name="sixth_activity">Genius</string>
+    <string name="seventh_activity">Master</string>
+    <string name="eighth_activity">Grand master</string>
+    <string name="ninth_activity">Legend</string>
+    <string name="tenth_activity">Out of this world</string>
+
+</resources>

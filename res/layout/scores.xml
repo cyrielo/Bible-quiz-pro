@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffc0a26b"
+
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/header_bg_color"
+            android:padding="20dp"
+            android:id="@+id/Header">
+    </TextView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beginner quiz results"
+            android:id="@+id/AppTitle"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+
+            >
+    </TextView>
+    <TextView
+            android:layout_below="@id/AppTitle"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:id="@+id/centerData"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/okButton"
+            android:background="#ff414141"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_alignBottom="@+id/centerData"
+            android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of correct answers"
+            android:id="@+id/correctAnswerCount"
+            android:layout_alignTop="@+id/centerData"
+            android:layout_alignLeft="@+id/centerData"
+            android:textColor="#FF3C3C3C"
+            android:layout_marginBottom="7dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of wrong answers: "
+            android:id="@+id/wrongAnswerCount"
+            android:layout_below="@+id/correctAnswerCount"
+            android:layout_alignLeft="@+id/centerData"
+            android:textColor="#FF3C3C3C"
+            android:layout_marginBottom="7dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total scores: "
+            android:id="@+id/total_scores"
+            android:layout_below="@+id/wrongAnswerCount"
+            android:layout_alignLeft="@+id/centerData"
+            android:textColor="#FF3C3C3C"/>
+
+</RelativeLayout>
